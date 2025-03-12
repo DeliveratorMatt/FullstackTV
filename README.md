@@ -35,9 +35,11 @@ Build out the `<App>`, `<ShowDetails>`, and `<ShowList>` components to render th
 
 ### App
 
-9. `<App>` imports the array from `data` into a state variable. Look very carefully at the
-   location of `data.js`! It is not a sibling of `App.jsx`.
-10. `<App>` keeps the selected show in a state variable.
+9. `<App>` imports the array from `data` into a state variable. Look very carefully at the location of `data.js`! It is not a sibling of `App.jsx`.
+
+//Do we also need to keep setSelectedShow in the state variable, to keep
+//the getter and setter together? 10. `<App>` keeps the selected show in a state variable.
+
 11. `<App>` renders `<ShowSelection>` within the `<header>` and `<ShowDetails>` within the `<main>`.
 12. `<ShowSelection>` and `<ShowDetails>` are provided the correct props. You just wrote these components, so you should know what props they expect!
 
