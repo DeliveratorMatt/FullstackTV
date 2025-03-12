@@ -10,13 +10,13 @@ import ShowSelection from "./shows/ShowSelection.jsx";
 
 export default function App() {
   const [selectedShow, setSelectedShow] = useState();
-  const [tvShows] = useState(tvShows);
+  const [shows] = useState(tvShows);
 
   return (
     <>
       <header>
         <h1>React TV</h1>
-        <ShowSelection shows={tvShows} setSelectedShow={setSelectedShow} />
+        <ShowSelection shows={shows} setSelectedShow={setSelectedShow} />
       </header>
       <main>
         <ShowDetails show={selectedShow} />

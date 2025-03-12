@@ -7,7 +7,7 @@ import EpisodeDetails from "../episodes/EpisodeDetails.jsx";
 export default function ShowDetails({ show }) {
   const [selectedEpisode, setSelectedEpisode] = useState();
 
-  if (!selectedEpisode) {
+  if (!show) {
     return (
       <section className="details">
         <h2>Show Details</h2>
