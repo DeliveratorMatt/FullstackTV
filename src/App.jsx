@@ -10,6 +10,7 @@ import ShowSelection from "./shows/ShowSelection.jsx";
 
 export default function App() {
   const [selectedShow, setSelectedShow] = useState();
+  const [tvShows] = useState(tvShows);
 
   return (
     <>
